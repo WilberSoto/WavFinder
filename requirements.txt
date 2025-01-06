@@ -1,5 +1,6 @@
 pandas
 streamlit
+matplotlib
 plotly
 plotly-express
 streamlit-plotly-events
