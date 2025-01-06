@@ -33,7 +33,7 @@ def get_track_recommendations(seed_tracks,token):
     return res.json()
 
 genre_matrix = pd.read_csv('preprocessed_matrix.csv').set_index('0')
-songs_data = pd.read_csv('processed_songs.csv')
+songs_data = pd.read_csv('processed_Songs.csv')
 def update_distance_selection(selected_distance, selected_genre, songs_data):
     distance_ranges = {
         'Very Far': slice(-700, -1),
