@@ -67,7 +67,7 @@ SPOTIPY_CLIENT_ID='7d7aa1b9af674ac99d3775655dad399e'
 SPOTIPY_CLIENT_SECRET='62010bcc96ab4c24a050d3ac1d0b6b5c'
 #SPOTIPY_REDIRECT_URI='WavFinder.streamlit.app'
 scope = "playlist-modify-public, playlist-modify-private, user-library-read, user-top-read"
-songs_data = pd.read_csv('processed_songs.csv')
+songs_data = pd.read_csv('processed_Songs.csv')
 genre_matrix = pd.read_csv('preprocessed_matrix.csv').set_index('0')
 #sp_oauth = spotipy.oauth2.SpotifyOAuth(client_id=SPOTIPY_CLIENT_ID, client_secret=SPOTIPY_CLIENT_SECRET)
 #redirect_uri=REDIRECT_URI,scope=SCOPE, show_dialog=True, cache_path=CACHE)
