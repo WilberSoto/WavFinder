@@ -6,7 +6,11 @@ import base64
 import pandas as pd
 
 import plotly.express as px
-from mpl_toolkits import mplot3d
+import matplotlib.pyplot as plt
+
+import mpl_toolkits
+
+from mpl_toolkits.mplot3d import Axes3D
 from streamlit_plotly_events import plotly_events
 
 import spotipy
