@@ -1,6 +1,7 @@
 pandas
 streamlit
 matplotlib
+seaborn
 plotly
 plotly-express
 streamlit-plotly-events
